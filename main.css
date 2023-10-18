@@ -1,0 +1,49 @@
+#img{
+    position: relative;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+#img-container{
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 93.25vh;
+  overflow: hidden;
+}
+
+#nav{
+    background-color: rgb(9, 15, 27);
+    font-family: 'Lato', sans-serif;
+    
+}
+
+#overlay{
+  
+  color: aliceblue;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Lato', sans-serif;
+  font-size: 100px;
+  width: 90vw;
+  opacity: 70%;
+  margin: 0;
+  padding: 0;
+}
+
+#btn{
+  color: aliceblue;
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 70%;
+  font-size: 30px;
+  width: 300px;
+  height: 100px;
+  border-width: 5px;
+}
