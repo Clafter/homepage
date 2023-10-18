@@ -12,27 +12,33 @@
   </head>
   <body>
     
-      <nav class="navbar navbar-expand-lg " id="nav">
+      <nav class="navbar navbar-dark navbar-expand-lg " id="nav">
           <div class="container-fluid">
-            <a class="navbar-brand" href="index.html" style="color: aliceblue;opacity: 80%;">Perplex</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <a class="navbar-brand" href="index.html">plexplore</a>
+            <div class="" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-link" aria-current="page" href="index.html" style="color: aliceblue; opacity: 80%;height: 40px;">START</a>
-                <a class="nav-link" href="#" style="color: rgb(9, 15, 27);opacity: 80%;height: 40px;">ÜBER UNS</a>
-                <a class="nav-link" href="#" style="color: rgb(9, 15, 27);opacity: 80%;margin-right: 60vw;height: 40px;">DIE IDEE</a>
+                <a class="nav-link" href="#">ÜBER UNS</a>
+                <a class="nav-link" href="#">DIE IDEE</a>
                 <a class="nav-link" aria-current="page" href="https://links.plexplore.org/" style="color: aliceblue; opacity: 80%;height: 40px;">SOCIALS</a>
               </div>
             </div>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
           </div>
         </nav>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
         <div id="img-container">
-            <img src="assets/hintergrund.jpg" class="img-fluid" alt="PlexPlore" id="img">
             <h1 id="overlay">DIE AES WILL ZU DEN STERNEN SEHT HIER  WIE</H1>
             <a href="#"><button type="button" class="btn" id="btn" >UNSERE MISSION</button></a>
         </div>
+
+        <style>
+          body{
+            max-height: 100vh;
+            overflow-y: hidden;
+            /* Das entfernt die Scrollbar permanent */
+          }
+        </style>
   </body>
 </html>
